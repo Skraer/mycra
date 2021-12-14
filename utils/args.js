@@ -10,6 +10,8 @@ const argsDefinitions = [
   { name: 'clear', alias: 'cl', type: Boolean },
   { name: 'source-map', alias: 'sm', type: Boolean },
   { name: 'ci', type: Boolean },
+  { name: 'server', alias: 'ssr', type: String, default: undefined },
+  { name: 'pwa', type: Boolean }
 ];
 
 const result = {};
